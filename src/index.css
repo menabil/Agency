@@ -2,4 +2,6 @@
 
 @theme {
   --font-int: "Inter", sans-serif;
+  --shadow-serShdow: 0 6px 35px 0 rgba(0,0,0,0.1); 
+ 
 }
