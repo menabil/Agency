@@ -10,7 +10,7 @@ import wSix from "/src/assets/wSix.png";
 
 const Work = () => {
   return (
-    <div className="py-[150px]">
+    <div className="py-[150px] bg-[#F3F3F3]">
       <Container>
         <div className="text-center">
           <h3 className="text-[#151515] text-[45px] font-bold">

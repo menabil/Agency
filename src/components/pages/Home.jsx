@@ -4,6 +4,7 @@ import Banner from "../layouts/Banner";
 import Success from "../layouts/Success";
 import Service from "../layouts/Service";
 import Work from "../layouts/Work";
+import Why from "../layouts/Why";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Success />
       <Service />
       <Work />
+      <Why />
       <Footer />
     </div>
   );
