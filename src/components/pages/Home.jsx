@@ -5,6 +5,7 @@ import Success from "../layouts/Success";
 import Service from "../layouts/Service";
 import Work from "../layouts/Work";
 import Why from "../layouts/Why";
+import Review from "../layouts/Review";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Service />
       <Work />
       <Why />
+      <Review />
       <Footer />
     </div>
   );
