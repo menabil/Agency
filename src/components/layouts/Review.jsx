@@ -6,8 +6,19 @@ import reTwo from "/src/assets/reTwo.png";
 import reThr from "/src/assets/reThr.png";
 import reFor from "/src/assets/reFor.png";
 import { FaStar } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Review = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
+
   return (
     <div className="mb-25">
       <Container>
@@ -20,8 +31,9 @@ const Review = () => {
             themajority have suffered alteration in some form.
           </p>
         </div>
-        <Flex className={"gap-x-6"}>
-          <div className="shadow-serShdow rounded-[20px] px-[58px] py-[54px]">
+        {/* <Flex className={"gap-x-6"}> */}
+        <Slider {...settings}>
+          <div className=" rounded-[20px] px-[58px] py-[54px] ">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -45,7 +57,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className="shadow-serShdow rounded-[20px] px-[58px] py-[54px]">
+          <div className=" rounded-[20px] px-[58px] py-[54px] ">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -69,7 +81,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className="shadow-serShdow rounded-[20px] px-[58px] py-[54px]">
+          <div className=" rounded-[20px] px-[58px] py-[54px] ">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -93,7 +105,32 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-        </Flex>
+          <div className=" rounded-[20px] px-[58px] py-[54px] ">
+            <Image imgSrc={reOne} />
+            <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
+              I had a good experience while using this app, what fascinated me
+              was the live tracking feature There are many variations of
+              passages of Lorem Ipsum available, but the majority.
+            </p>
+            <Flex className={"text-[#F9BD2C] text-xl"}>
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </Flex>
+            <Flex className={"mt-[30px] gap-x-5"}>
+              <Image imgSrc={reTwo} />
+              <div className="">
+                <p className="text-xl text-[#232323] font-semibold leading-[120%]">
+                  Awlad Hossain
+                </p>
+                <p className="text-base text-[#7B7B7B] ">UX Researcher</p>
+              </div>
+            </Flex>
+          </div>
+        </Slider>
+        {/* </Flex> */}
       </Container>
     </div>
   );

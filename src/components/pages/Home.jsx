@@ -6,6 +6,7 @@ import Service from "../layouts/Service";
 import Work from "../layouts/Work";
 import Why from "../layouts/Why";
 import Review from "../layouts/Review";
+import Contact from "../layouts/Contact";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Work />
       <Why />
       <Review />
+      <Contact />
       <Footer />
     </div>
   );
