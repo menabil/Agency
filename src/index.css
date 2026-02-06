@@ -5,30 +5,34 @@
   --shadow-serShdow: 0 6px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
-.slick-dots {
-  top: 450px;
-  display: flex !important;
-  column-gap: 10px;
-  justify-content: center;
+.swiper {
+  padding-bottom: 50px !important;
 }
 
-.slick-dots li {
-  background-color: #6a4df4;
-  opacity: 10%;
+.swiper-pagination {
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  text-align: center !important;
+  z-index: 10 !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: #6a4df4 !important;
+  opacity: 10% !important;
+  margin: 0 6px !important;
   border-radius: 50%;
-  height: 13px !important;
-  width: 13px !important;
+  display: inline-block !important;
 }
 
-.slick-dots li.slick-active {
-  background-color: #6a4df4;
-  opacity: 100%;
+.swiper-pagination-bullet-active {
+  background-color: #6a4df4 !important;
+  opacity: 100% !important;
 }
 
-.slick-active {
-  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.1);
-}
-
-.slick-dots li button::before {
-  content: "" !important;
+.swiper-slide-active .swp {
+  box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.1);
+  border-color: transparent;
 }
