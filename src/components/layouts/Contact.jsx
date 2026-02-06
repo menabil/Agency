@@ -32,7 +32,7 @@ const Contact = () => {
               Email
             </label>
             <input
-              type="text"
+              type="email"
               placeholder="Enter your email"
               className="border-2 mt-3 mb-5 border-[#E8E8E8] outline-none block rounded-[10px] px-[23px] py-[19px] w-[450px] "
             />
