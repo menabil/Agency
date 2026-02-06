@@ -35,7 +35,7 @@ const Review = () => {
           </p>
         </div>
         <Slider {...settings}>
-          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-white">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -59,7 +59,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-white">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -83,7 +83,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-white">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -107,7 +107,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-white">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -131,7 +131,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-white">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -155,7 +155,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-white">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
