@@ -75,7 +75,8 @@ const Work = () => {
               Digital Marketing
             </button>
           </Flex>
-          <Flex className={"gap-6 flex-wrap container"} ref={containerRef}>
+
+          <div className={"gap-6 flex-wrap container flex items-center"} ref={containerRef}>
             <div className="overflow-hidden rounded-[20px] shadow-serShdow mix ill">
               <Image imgSrc={wOne} />
               <div className=" px-[42px] py-[30px]">
@@ -148,7 +149,7 @@ const Work = () => {
                 </p>
               </div>
             </div>
-          </Flex>
+          </div>
         </div>
       </Container>
     </div>

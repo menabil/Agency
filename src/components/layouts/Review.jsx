@@ -17,6 +17,9 @@ const Review = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    className: "center",
+    centerMode: true,
+    centerPadding: "0px",
   };
 
   return (
@@ -31,9 +34,8 @@ const Review = () => {
             themajority have suffered alteration in some form.
           </p>
         </div>
-        {/* <Flex className={"gap-x-6"}> */}
         <Slider {...settings}>
-          <div className=" rounded-[20px] px-[58px] py-[54px] ">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -57,7 +59,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className=" rounded-[20px] px-[58px] py-[54px] ">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -81,7 +83,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className=" rounded-[20px] px-[58px] py-[54px] ">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -105,7 +107,7 @@ const Review = () => {
               </div>
             </Flex>
           </div>
-          <div className=" rounded-[20px] px-[58px] py-[54px] ">
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
             <Image imgSrc={reOne} />
             <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
               I had a good experience while using this app, what fascinated me
@@ -129,8 +131,55 @@ const Review = () => {
               </div>
             </Flex>
           </div>
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+            <Image imgSrc={reOne} />
+            <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
+              I had a good experience while using this app, what fascinated me
+              was the live tracking feature There are many variations of
+              passages of Lorem Ipsum available, but the majority.
+            </p>
+            <Flex className={"text-[#F9BD2C] text-xl"}>
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </Flex>
+            <Flex className={"mt-[30px] gap-x-5"}>
+              <Image imgSrc={reThr} />
+              <div className="">
+                <p className="text-xl text-[#232323] font-semibold leading-[120%]">
+                  Rosa Farmer
+                </p>
+                <p className="text-base text-[#7B7B7B] ">UI Designer</p>
+              </div>
+            </Flex>
+          </div>
+          <div className="rounded-[20px] px-[58px] py-[54px] bg-amber-600">
+            <Image imgSrc={reOne} />
+            <p className="text-[#7B7B7B] text-base leading-[26px] w-[307px] my-5">
+              I had a good experience while using this app, what fascinated me
+              was the live tracking feature There are many variations of
+              passages of Lorem Ipsum available, but the majority.
+            </p>
+            <Flex className={"text-[#F9BD2C] text-xl"}>
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </Flex>
+            <Flex className={"mt-[30px] gap-x-5"}>
+              <Image imgSrc={reFor} />
+              <div className="">
+                <p className="text-xl text-[#232323] font-semibold leading-[120%]">
+                  Eric Drake
+                </p>
+                <p className="text-base text-[#7B7B7B] ">Digital Marketor</p>
+              </div>
+            </Flex>
+          </div>
         </Slider>
-        {/* </Flex> */}
       </Container>
     </div>
   );

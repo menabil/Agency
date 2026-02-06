@@ -2,6 +2,33 @@
 
 @theme {
   --font-int: "Inter", sans-serif;
-  --shadow-serShdow: 0 6px 35px 0 rgba(0,0,0,0.1); 
- 
+  --shadow-serShdow: 0 6px 35px 0 rgba(0, 0, 0, 0.1);
+}
+
+.slick-dots {
+  top: 450px;
+  display: flex !important;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.slick-dots li {
+  background-color: #6a4df4;
+  opacity: 10%;
+  border-radius: 50%;
+  height: 13px !important;
+  width: 13px !important;
+}
+
+.slick-dots li.slick-active {
+  background-color: #6a4df4;
+  opacity: 100%;
+}
+
+.slick-active {
+  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.1);
+}
+
+.slick-dots li button::before {
+  content: "" !important;
 }
